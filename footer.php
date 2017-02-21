@@ -5,9 +5,10 @@
                         <!-- Disclaimer -->
                         <div class="col-md-4" style="width:50%; font-size:large;">
                             <h3 class="class margin-bottom-10">Disclaimer</h3>
-                            <p>All stock images on this template demo are for presentation purposes only, intended to represent a live site and are not included with the template or in any of the Joomla51 club membership plans.</p>
-                            <p>Most of the images used here are available from
-                                <a href="http://www.shutterstock.com/" target="_blank">shutterstock.com</a>. Links are provided if you wish to purchase them from their copyright owners.</p>
+                            <p>This website is for the members of Yogakshema and the developers of the website.</p>
+                            <p>The public use of website is only for few pages that have been allowed by the developers and the
+                            members of the society while building the same. Any unauthorized use of the images and abilities of the website
+                            would be punishable offense.</p>                            
                         </div>
                         <!-- End Disclaimer -->
                         <!-- Contact Details -->
@@ -47,7 +48,8 @@
                             </ul>
                             <div class="clearfix"></div>
                         </div>-->
-                        <div class="col-md-4 margin-bottom-20"  style="width:50%; padding-left:140px; font-size:large;">
+                        <div class="col-md-4 margin-bottom-20"  style="width:50%; padding-left:140px; 
+                             font-size:larger;">
                             <h3 class="margin-bottom-10">Contact Details</h3>
                             <p>
                                 <span class="fa-phone">Telephone:</span>1-800-123-4567
@@ -73,8 +75,8 @@
                 <div class="container">
                     <div class="row">
                         <!-- Footer Menu -->
-                        <div id="footermenu" class="col-md-8">
-                            <ul class="list-unstyled list-inline">
+                        <div id="footermenu" class="col-md-8" style="font-size: large">
+<!--                            <ul class="list-unstyled list-inline">
                                 <li>
                                     <a href="#" target="_blank">Sample Link</a>
                                 </li>
@@ -87,15 +89,16 @@
                                 <li>
                                     <a href="#" target="_blank">Sample Link</a>
                                 </li>
-                            </ul>
+                            </ul>-->
+                        <p>Your vision, our motto, success on-board!!!</p>
                         </div>
                         <!-- End Footer Menu -->
                         <!-- Copyright -->
                         <div id="copyright" class="col-md-4">
-                            <p class="pull-right">(c) 2014 Your Copyright Info</p>
+                            <p class="pull-right">(c) Builders of this Website.</p>
                         </div>
                         <!-- End Copyright -->
                     </div>
                 </div>
             </div>
-            <!-- End Footer -->
+            <!-- End Footer -->                                                       

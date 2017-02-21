@@ -4,8 +4,8 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
-    <!--<![endif]-->
-    <head>
+<!--    [endif]-->
+    <head onload="overlay()">
         <!-- Title -->
         <title>YOGAKSHEMA</title>
         <!-- Meta -->
@@ -23,8 +23,19 @@
         <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+<!--        <link rel="stylesheet" href="assets/css/overlay.css" rel="stylesheet">-->
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+        
+        <!---- SCRIPT ---->
+        <script>
+        function overlay() {
+	el = document.getElementById("overlay");
+	el.style.visibility = (el.style.visibility === "visible") ? "hidden" : "visible";
+        }
+            
+        </script>
+        
     </head>
     <body>
         <div id="body-bg">
@@ -58,9 +69,9 @@
                                 <div class="item">
                                     <img src="assets/img/slideshow/slide3.jpg">
                                 </div>
-                                <div class="item">
+<!--                                <div class="item">
                                     <img src="assets/img/slideshow/slide4.jpg">
-                                </div>
+                                </div>-->
                             </div>
                             <!-- End Carousel Images -->
                             <!-- Carousel Controls -->
@@ -76,14 +87,14 @@
                     </div>
                 </div>
             </div>
-            <div id="icons" class="bottom-border-shadow">
+<!--            <div id="icons" class="bottom-border-shadow">
                 <div class="container background-grey bottom-border">
                     <div class="row padding-vert-60">
-                        <!-- Icons -->
+                         Icons 
                         <div class="col-md-4 text-center">
                             <i class="fa-cogs fa-4x color-primary animate fadeIn"></i>
                             <h2 class="padding-top-10 animate fadeIn">Velit esse molestie</h2>
-                            <p class="animate fadeIn">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer.</p>
+                            <p class="animate fadeIn">This is sample text test.</p>
                         </div>
                         <div class="col-md-4 text-center">
                             <i class="fa-cloud-download fa-4x color-primary animate fadeIn"></i>
@@ -95,57 +106,64 @@
                             <h2 class="padding-top-10 animate fadeIn">Placerat facer possim</h2>
                             <p class="animate fadeIn">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer.</p>
                         </div>
-                        <!-- End Icons -->
+                         End Icons 
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div id="content" class="bottom-border-shadow">
                 <div class="container background-white bottom-border">
                     <div class="row margin-vert-30">
                         <!-- Main Text -->
                         <div class="col-md-6">
                             <h2>Welcome to Yogakshema</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-                                augue duis dolore te feugait nulla facilisi. Cras non sem sem, at eleifend mi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Curabitur eget nisl
-                                a risus.</p>
+                            <p style="font-size: 20px; color: #222222;"> Nothing is Impossible, because the work Impossible itself
+                            says that "I"-"M"-"Possible" and we are working on making a hard to fulfill dream for many
+                            individuals like us to come true.</p>
+                            <p style="font-size: 20px; color: #222222;">
+                                YOGAKSHEMA, is the society that was just a dream for the initiators (Committee Members),
+                                but with the efforts and will to create a place where people with same dream of having a luxurious 
+                                lifestyle and providing their families with better and secure environment it has now become possible for 
+                                every common person with average range of budget, to get this dream rolling into reality.
+                            </p>
+                            <!--<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit-->
+                                <!--augue duis dolore te feugait nulla facilisi. Cras non sem sem, at eleifend mi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Curabitur eget nisl-->
+                                <!--a risus.</p>-->
                         </div>
                         <!-- End Main Text -->
-                        <div class="col-md-6">
-                            <h3 class="padding-vert-10">Key Features</h3>
-                            <p>Duis sit amet orci et lectus dictum auctor a nec enim. Donec suscipit fringilla elementum. Suspendisse nec justo ut felis ornare tincidunt vitae et lectus.</p>
-                            <ul class="tick animate fadeInRight">
-                                <li>Responsive Design</li>
-                                <li>Built with LESS</li>
-                                <li>Font Choosers</li>
-                                <li>Replaceable Background Image</li>
-                                <li>Custom Module Widths</li>
-                                <li>All Module Extensions Included</li>
+                        <div class="col-md-6" >
+                            <h2 class="padding-vert-10">Specialities Of Yogakshema</h2>
+                            <p style="font-size: 22px; color: #222222;">Following amenities will be available in our society:</p>
+                            <ul class="tick animate fadeInRight" style="font-size: 20px; color: #222222;">
+                                <li>Garden</li>
+                                <li>GYM</li>
+                                <li>Indoor and Outdoor Games</li>
+                                <li>Swimming Pool</li>
+                                <li>Refreshments</li>
+                                <li>Jogging Track</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Portfolio -->
-            <div id="portfolio" class="bottom-border-shadow">
+<!--            <div id="portfolio" class="bottom-border-shadow">
                 <div class="container bottom-border">
                     <div class="row padding-top-40">
                         <ul class="portfolio-group">
-                            <!-- Portfolio Item -->
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeInLeft">
                                         <img alt="image1" src="assets/img/frontpage/image1.jpg">
                                         <figcaption>
-                                            <h3>Velit esse molestie</h3>
+                                            <h3>Sample Image</h3>
                                             <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
                                         </figcaption>
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
+                             //Portfolio Item// 
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeIn">
@@ -157,8 +175,8 @@
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
+                             //Portfolio Item// 
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeInRight">
@@ -170,8 +188,8 @@
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
+                             //Portfolio Item// 
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeInLeft">
@@ -183,8 +201,8 @@
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
+                             //Portfolio Item// 
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeIn">
@@ -196,8 +214,8 @@
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
-                            <!-- Portfolio Item -->
+                             //Portfolio Item// 
+                             Portfolio Item 
                             <li class="portfolio-item col-sm-4 col-xs-6 margin-bottom-40">
                                 <a href="#">
                                     <figure class="animate fadeInRight">
@@ -209,13 +227,21 @@
                                     </figure>
                                 </a>
                             </li>
-                            <!-- //Portfolio Item// -->
+                             //Portfolio Item// 
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!-- End Portfolio -->
             <!-- === END CONTENT === -->
+            
+            <!----OVERLAY ----->
+            <div id="overlay" style =" visibility: hidden; position: absolute; left: 0px; top: 0px; width:100%; height:100%; text-align:center; z-index: 1000;">
+                <div style="width:300px; margin: 100widthpx auto; background-color: #fff; border:1px solid #000; padding:15px; text-align:center;">
+                    <p>Content you want the user to see goes here.</p>
+                </div>
+            </div>
+       
             
             <!-- Begin footer -->
             <?php include 'footer.php'?>

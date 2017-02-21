@@ -7,7 +7,7 @@
     <!--<![endif]-->
     <head>
         <!-- Title -->
-        <title>Habitat - A Professional Bootstrap Template</title>
+        <title>YOGAKSHEMA</title>
         <!-- Meta -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="">
@@ -116,9 +116,9 @@
                                 <div class="panel-heading">
                                     <h3 class="panel-title">About</h3>
                                 </div>
-                                <div class="panel-body">
-                                    Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero consectetur adipiscing elit magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat.
-                                </div>
+                                <div class="panel-body" style="font-size: large">
+                                <p>The result when individuals with dreams come together to settle themselves.</p>
+                                <p>YOGAKSHEMA, is one such result, we invite all the individuals with similar dreams to join us in our goals and make the society a better place for everyone to be together as one family!</p>                                </div>
                             </div>
                             <!-- End About -->
                         </div>

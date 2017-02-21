@@ -1,5 +1,7 @@
 
-
+<style>
+    a.ex2:hover, a.ex2:active {font-size:20px;}
+</style>
 <!-- Phone/Email -->
             <div id="pre-header" class="background-gray-lighter">
                 <div class="container no-padding">
@@ -30,28 +32,30 @@
             </div>
             <!-- End Header -->
             <div style="padding-top: 35px;">
-                <marquee  scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">This is basic example of marquee</marquee> </div>
+                <marquee  scrollamount="2" onmouseover="this.stop();" 
+                          onmouseout="this.start();">This is basic example of marquee</marquee> </div>
             <!-- Top Menu -->
             <div id="hornav" class="bottom-border-shadow">
                 <div class="container no-padding border-bottom">
                     <div class="row">
                         <div class="col-md-8 no-padding">
                             <div class="visible-lg">
-                                <ul id="hornavmenu" class="nav navbar-nav">
+                                <ul id="hornavmenu" class="nav navbar-nav ex2">
                                     <li>
-                                        <a href="index.php" class="fa-home active">Home</a>
+                                        <a href="index.php" class="fa-home active" class="ex2">Home</a>
                                     </li>
-                                    <li>
-                                        <span class="fa-gears ">Utilities</span>
+                                    <li class="ex2">
+                                        <span class="fa-gears">Utilities</span>
                                         <ul>
                                             <li class="parent">
                                                 <span>Flat Details</span>
                                                 <ul>
                                                     <li>
-                                                        <a href="features-typo-basic.php">Basic Typography</a>
+<!--                                                        <a href="features-typo-basic.php" class="ex2">Gold Flat Layouts</a>-->
+                                                        <a href="gold.php" class="ex2">Gold Flat Layouts</a>
                                                     </li>
                                                     <li>
-                                                        <a href="features-typo-blockquotes.php">Blockquotes</a>
+                                                        <a href="platinum.php" class="ex2">Platinum Flat Layouts</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -73,13 +77,13 @@
                                                 </ul>
                                             </li>-->
                                             <li class="parent">
-                                                <span>Maintenance Menu</span>
+                                                <span class="ex2">Maintenance Menu</span>
                                                 <ul>
                                                     <li>
-                                                        <a href="features-icons.php">Maintenance Due</a>
+                                                        <a href="comingsoonpage.php" class="ex2">Maintenance Due</a>
                                                     </li>
                                                     <li>
-                                                        <a href="features-icons-social.php">Admin Control</a>
+                                                        <a href="comingsoonpage.php" class="ex2">Admin Control</a>
                                                     </li>
 <!--                                                    <li>
                                                         <a href="features-icons-font-awesome.php">Font Awesome</a>
@@ -90,19 +94,19 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="features-testimonials.php">Complaint Tracking</a>
+                                                <a href="comingsoonpage.php" class="ex2">Complaint Tracking</a>
                                             </li>
                                             <li>
-                                                <a href="features-accordions-tabs.php">Parking Details</a>
+                                                <a href="comingsoonpage.php" class="ex2">Parking Details</a>
                                             </li>
                                             <li>
-                                                <a href="features-buttons.php">Facilities In Vicinity</a>
+                                                <a href="comingsoonpage.php" class="ex2">Facilities In Vicinity</a>
                                             </li>
                                             <li>
-                                                <a href="features-carousels.php">Accounting (Admin)</a>
+                                                <a href="comingsoonpage.php" class="ex2">Accounting (Admin)</a>
                                             </li>
                                             <li>
-                                                <a href="features-grid.php">Bookings</a>
+                                                <a href="comingsoonpage.php" class="ex2">Bookings</a>
                                             </li>
 <!--                                            <li>
                                                 <a href="features-animate-on-scroll.php">Animate On Scroll</a>
@@ -110,12 +114,14 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <span class="fa-copy ">About Us</span>
-<!--                                        <ul>
-                                            <li>
-                                                <a href="pages-about-us.php">About Us</a>
-                                            </li>
-                                            <li>
+<!--                                        <span class="fa-copy ex2" >-->
+                                            <a href="pages-about-us.php">About Us </a> 
+<!--                                            </span>-->
+                                       <ul>
+                                           <li style="font-size: larger">
+                                                <a href="committe-members.php" class="ex2">Core Committee</a>
+                                            </li>                                            
+                                       <!--      <li>
                                                 <a href="pages-services.php">Services</a>
                                             </li>
                                             <li>
@@ -141,20 +147,20 @@
                                             </li>
                                             <li>
                                                 <a href="pages-404.php">404 Error Page</a>
-                                            </li>
-                                        </ul>-->
+                                            </li>-->
+                                        </ul>
                                     </li>
                                     <li>
-                                        <span class="fa-th ">Gallery</span>
+                                        <span class="ex2">Gallery</span>
                                         <ul>
                                             <li>
-                                                <a href="portfolio-2-column.php">Construction site</a>
+                                                <a href="comingsoonpage.php" class="ex2">Construction site</a>
                                             </li>
                                             <li>
-                                                <a href="portfolio-3-column.php">Playground</a>
+                                                <a href="comingsoonpage.php" class="ex2">Playground</a>
                                             </li>
                                             <li>
-                                                <a href="portfolio-4-column.php">Club House</a>
+                                                <a href="comingsoonpage.php" class="ex2">Club House</a>
                                             </li>
 <!--                                            <li>
                                                 <a href="portfolio-6-column.php">6 Column</a>
@@ -173,7 +179,7 @@
                                         </ul>
                                     </li>-->
                                     <li>
-                                        <a href="contact.php" class="fa-comment ">Contact</a>
+                                        <a href="contact.php" class="fa-comment " class="ex2">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -183,9 +189,9 @@
 <!--                                <li class="social-rss">
                                     <a href="#" target="_blank" title="RSS"></a>
                                 </li>-->
-                                <li class="social-twitter">
+<!--                                <li class="social-twitter">
                                     <a href="#" target="_blank" title="Twitter"></a>
-                                </li>
+                                </li>-->
                                 <li class="social-facebook">
                                     <a href="#" target="_blank" title="Facebook"></a>
                                 </li>
